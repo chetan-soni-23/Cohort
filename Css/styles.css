@@ -1,0 +1,36 @@
+#title {
+    font: bold italic 50px Helvetica;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar {
+    background-color: rgb(53, 169, 223);
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a{
+    font: bold 18px Helvetica;
+    color:white;
+    padding: 10px 15px ;
+    text-decoration: none;
+}
+
+#Heading {
+  border-top: 1px dashed #ccc;
+}
+
+.image-container {
+    text-align: center;
+    /* margin: 20px 0; */
+}
+.footer {
+    background-color: #130d0d;
+    text-align: center;
+    padding: 10px;
+}
+.footer p {
+    font: bold 14px Helvetica;
+    color: white;
+}
