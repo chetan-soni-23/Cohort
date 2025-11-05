@@ -1,0 +1,112 @@
+#Header {
+    background-color: #1b1919;
+    padding: 2px;
+    text-align: center;
+    color: white;   
+}
+#navbar {
+    text-align: center;
+    color: black;
+    background-color: rgb(243, 235, 235);
+    border-bottom: #b2b2b2 solid 1px;
+}
+#navbar a {
+    display: inline-block;
+    color: black;
+    padding: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#main {
+    display:flex;
+    height: 100%
+}
+
+#sidebar {
+    background-color: rgb(243, 235, 235);
+    width: 20%;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+#sidebar a {
+    display: grid;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(73, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content-images {
+    width: 100%;
+    background-color: white;
+    padding: 10px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* make images flexible and prevent overflow */
+#content-images img {
+    flex: 0 1 300px;        /* allow wrapping and flexible sizing */
+    width: 100% !important; /* override any later fixed width */
+    max-width: 300px;
+    height: auto !important;/* override any later fixed height */
+    object-fit: cover;
+    display: block;
+}
+
+body {
+    height: 100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#main{
+    display: flex;
+
+    flex: 1 0 auto; /* grow to fill available vertical space */
+    min-height: 0;  /* allow children to scroll / flex correctly */
+}
+
+
+#content {
+    width: 80%;
+    height: 100%;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+#content h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 18px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 18px;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+footer{
+    position:fixed;
+    left:0; 
+    right:0;
+    bottom:0;
+    width:100%;
+
+    background:#333; 
+    color:#fff;
+    text-align:center;
+    padding:12px 16px;  
+}
