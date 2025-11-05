@@ -1,0 +1,64 @@
+form h1{
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    box-shadow: #ccc 0px 0px 10px;
+    padding: 0 20px 20px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+
+
+form input{
+    width: 100%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+form input[type="submit"]{
+    background-color: rgba(10, 125, 240, 0.648);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form textarea{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/1200x/98/af/40/98af40d7a9fea33d1b5cad2303922c13.jpg");
+}
+
+form label{
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover{
+    background-color: crimson;
+    cursor:pointer;;
+}
+
+form textarea:focus, form input:focus{
+    transform: scale(1.5);
+    outline: none;
+    border: 2px solid rgba(10, 125, 240, 0.648);
+    box-shadow: 0 0 5px rgba(10, 125, 240, 0.648);
+}
+
+/* Modern browsers: change form when a label inside it is hovered */
+form:has(label:hover) {
+    background-color: tan;
+}
