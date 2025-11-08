@@ -1,0 +1,47 @@
+.header {
+    text-align: center;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* gap: 10px; */
+}
+.product {
+    margin: 20px;
+    padding: 30px;
+    min-width: fit-content;
+    border: 1px solid #ccc;
+}
+.product img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 0;
+}
+.product h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.product p {
+    text-align: center;
+    font-size: 1em;
+    margin: 5px 0;
+}
+.product h3 {
+    text-align: center;
+    color: green;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
