@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+#card {
+  width: 400px;
+  height: 400px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border-radius: 20px;
+  border: 10px solid wheat;
+}
+#card img {
+  margin-top: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#card h2 {
+  color: red;
+  font-size: 30px;
+}
+#card #btn {
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(90, 184, 90);
+  font-size: 1rem;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
