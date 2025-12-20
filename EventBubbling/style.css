@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  padding: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+main .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: grey;
+  color: white;
+  height: 350px;
+  width: 205px;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  gap: 10px;
+}
+main .card #profile {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+main .card #profile img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .card h2 {
+  margin-top: -50px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+main .card p {
+  font-size: small;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+main .card #role {
+  font-size: medium;
+  font-style: italic;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+main .card #status {
+  font-size: medium;
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+main .card button {
+  width: 100%;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: medium;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+main .card button:hover {
+  background-color: greenyellow;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
