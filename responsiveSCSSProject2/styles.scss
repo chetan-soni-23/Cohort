@@ -14,6 +14,44 @@ html,body{
     height: 100%;
 }
 
+#dark-icon {
+    display: none;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+
+    main {
+        border-color: white;
+
+        nav{
+        .dark-mode-toggle {
+            background-color: white;
+
+            #light-icon {
+                display: none;
+            }
+            #dark-icon {
+                display: inline;
+            }
+        }
+    }
+        svg path {
+        fill: white !important;
+    }
+
+    .breaker, .breaker-1 {
+        border-color: white;
+    }
+
+    .btn {
+        background-color: white;
+        color: black;
+    }
+    }
+}
+
 html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -26,7 +64,17 @@ main{
     width: 100%;
     padding: 1.5rem;
     padding-top: 3rem;
-    border: 1px solid black;  
+    border: 1px solid black;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+
+    .dark-mode-toggle{
+        background-color: black;
+    }
 }
 
 .view-1{
